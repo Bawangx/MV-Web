@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- AutoMapper - Updated to latest stable -->
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+
+		<!-- JSON - Updated to latest -->
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+		<!-- JWT - Updated to latest -->
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.13.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MagicVilla_Utility\MagicVilla_Utility.csproj" />
+		<ProjectReference Include="..\MagicVilla_VillaAPI\MV-API.csproj" />
+	</ItemGroup>
+</Project>
