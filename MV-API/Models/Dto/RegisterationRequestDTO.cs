@@ -1,4 +1,4 @@
-﻿namespace MagicVilla_VillaAPI.Models.Dto
+﻿namespace MV-API.Models.Dto
 {
     public class RegisterationRequestDTO
     {

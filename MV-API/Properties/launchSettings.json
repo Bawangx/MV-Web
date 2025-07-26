@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "MagicVilla_VillaAPI": {
+    "MV-API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -23,7 +23,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\MagicVilla_Utility\MagicVilla_Utility.csproj" />
-		<ProjectReference Include="..\MagicVilla_VillaAPI\MV-API.csproj" />
+		<ProjectReference Include="..\MV-API\MV-API.csproj" />
+		<ProjectReference Include="..\MV-API\MV-API.csproj" />
+		<ProjectReference Include="..\MV-Utility\MV-Utility.csproj" />
 	</ItemGroup>
 </Project>

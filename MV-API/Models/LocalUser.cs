@@ -1,4 +1,4 @@
-﻿namespace MagicVilla_VillaAPI.Models
+﻿namespace MV-API.Models
 {
     public class LocalUser
     {

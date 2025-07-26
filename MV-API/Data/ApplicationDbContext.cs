@@ -1,8 +1,8 @@
-﻿using MagicVilla_VillaAPI.Models;
+﻿using MV-API.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace MagicVilla_VillaAPI.Data
+namespace MV-API.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

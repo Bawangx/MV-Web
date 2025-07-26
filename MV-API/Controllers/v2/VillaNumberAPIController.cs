@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using MagicVilla_VillaAPI.Data;
-using MagicVilla_VillaAPI.Models;
-using MagicVilla_VillaAPI.Models.Dto;
-using MagicVilla_VillaAPI.Repository.IRepostiory;
+using MV-API.Data;
+using MV-API.Models;
+using MV-API.Models.Dto;
+using MV-API.Repository.IRepostiory;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.JsonPatch;
@@ -12,7 +12,7 @@ using Asp.Versioning; // Updated namespace for API versioning
 using System.Data;
 using System.Net;
 
-namespace MagicVilla_VillaAPI.Controllers.v2
+namespace MV-API.Controllers.v2
 {
     [Route("api/v{version:apiVersion}/VillaNumberAPI")]
     [ApiController]

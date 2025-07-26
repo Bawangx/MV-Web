@@ -1,7 +1,7 @@
-using MagicVilla_VillaAPI;
-using MagicVilla_VillaAPI.Data;
-using MagicVilla_VillaAPI.Repository.IRepostiory;
-using MagicVilla_VillaAPI.Repository;
+using MV-API;
+using MV-API.Data;
+using MV-API.Repository.IRepostiory;
+using MV-API.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -10,7 +10,7 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
-using MagicVilla_VillaAPI.Models;
+using MV-API.Models;
 using Asp.Versioning; // Updated namespace for API versioning
 
 var builder = WebApplication.CreateBuilder(args);

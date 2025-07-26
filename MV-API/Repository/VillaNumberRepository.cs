@@ -1,10 +1,10 @@
-﻿using MagicVilla_VillaAPI.Data;
-using MagicVilla_VillaAPI.Models;
-using MagicVilla_VillaAPI.Repository.IRepostiory;
+﻿using MV-API.Data;
+using MV-API.Models;
+using MV-API.Repository.IRepostiory;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace MagicVilla_VillaAPI.Repository
+namespace MV-API.Repository
 {
     public class VillaNumberRepository : Repository<VillaNumber>, IVillaNumberRepository
     {

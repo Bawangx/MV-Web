@@ -1,7 +1,7 @@
-﻿using MagicVilla_VillaAPI.Models;
+﻿using MV-API.Models;
 using System.Linq.Expressions;
 
-namespace MagicVilla_VillaAPI.Repository.IRepostiory
+namespace MV-API.Repository.IRepostiory
 {
     public interface IRepository<T> where T : class
     {
